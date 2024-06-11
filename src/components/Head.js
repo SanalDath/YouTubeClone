@@ -17,8 +17,8 @@ const Head = () => {
             <img className='w-28 h-12 ml-5' alt="logo" src='https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png'/>
         </div>
         <div className='my-5 ml-32 col-span-10'>
-            <input className="border border-zinc-950 w-96 h-9  rounded-l-full" type='text'/>
-            <button className="bg-slate-300 rounded-r-full h-9 w-12">S</button>
+            <input className="border border-zinc-950 w-96 h-8  rounded-l-full" type='text'/>
+            <button className="bg-slate-300 rounded-r-full h-9 w-16">search</button>
         </div>
         <div className='col-span-1'>
           <img className='w-8 h-8' alt="logo" src="https://static.vecteezy.com/system/resources/previews/002/387/693/non_2x/user-profile-icon-free-vector.jpg"/>
