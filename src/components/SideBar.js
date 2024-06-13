@@ -12,11 +12,11 @@ const SideBar = () => {
   if(!isMenuOpen) return <SideBarToggle/>;//doing early return
 
   return (
-    <div className='p-5 shadow-lg'>
+    <div className='p-5 '>
       <ul className=''>
-        <Link to={"/"}><li className='font-bold w-48 flex m-1 p-1'><i class="fa-solid fa-house"></i><h1 className='ml-8'>Home</h1></li></Link>
+        <Link to={"/"}><li className='font-bold w- flex m-1 p-1'><i class="fa-solid fa-house"></i><h1 className='ml-8'>Home</h1></li></Link>
         <li className='font-bold m-1 p-1 flex'><i class="fa-solid fa-bolt"></i><h1 className='ml-8'>Shorts</h1></li>
-        <li className='font-bold w-48 m-1 p-1 flex'><i class="fa-solid fa-tv"></i><h1 className='ml-6'>Subscriptions</h1></li>
+        <li className='font-bold w- m-1 p-1 flex'><i class="fa-solid fa-tv"></i><h1 className='ml-6'>Subscriptions</h1></li>
       </ul>
       <hr></hr>
       <div>

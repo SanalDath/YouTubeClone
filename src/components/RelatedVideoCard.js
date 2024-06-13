@@ -13,7 +13,7 @@ const RelatedVideoCard = ({snippet, statistics}) => {
       <div className=''>
         <img className="h-28 w-48 rounded-md" alt='thumbnail' src={snippet?.thumbnails?.default?.url}/>
       </div>
-          <div className='ml-2 w-48 h-10'>
+          <div className='ml-2 w-72 h-10'>
             <h1 className='text-sm font-semibold mt-1 overflow-hidden'>{videoTitle}...</h1>
             <h3 className='text-sm font-semibold text-slate-800 mt-2'>{snippet.channelTitle}</h3>
               <div className='flex mt-2'>

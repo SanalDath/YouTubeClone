@@ -16,7 +16,7 @@ const VideoCard = ({ snippet, statistics }) => {
      //console.log(typeof(timeValue));
     // console.log(typeof(val));
     return (
-      <div className='p-3 m-3'>
+      <div className='p-2 m-2'>
         <img className='rounded-lg' alt='logo' src={snippet.thumbnails.medium.url}/>
         <div className='p-1 m-1 flex'>
           <img className='h-8 w-8 rounded-2xl' alt='logo' src={snippet.thumbnails.default.url}/>
