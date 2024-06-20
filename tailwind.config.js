@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+   plugins: [
+    require('tailwind-scrollbar'),
+  ],
+  variants: {
+    scrollbar: ['rounded']
+  }
 }
 

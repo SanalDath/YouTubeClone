@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import React from 'react'
+
 
 const searchSlice = createSlice({
     name: 'search',
