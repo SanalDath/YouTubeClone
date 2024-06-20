@@ -26,7 +26,7 @@ const VideoInfo = ({params}) => {
 };
 
     const res = videos.filter(video => video.id === params);
-    console.log("res.id",res[0]?.id);
+    //console.log("res.id",res[0]?.id);
     //setResult(res);
     //console.log("res", res)
     
@@ -83,7 +83,7 @@ const VideoInfo = ({params}) => {
                 <button onClick={toggleDropDown} className='mt-9 ml-8 hover:bg-slate-100 w-24 h-8'>
                     <i class="fa-solid fa-bars-staggered"></i> sort by
                     {<div>
-                      {showDropDown && <div className='bg-slate-200'>
+                      {showDropDown && <div className='fixed bg-slate-200'>
                                           <h1 className='text-sm font-semibold'>Top comments</h1>
                                           <h1 className='text-sm font-semibold'>Newest first</h1>
                                        </div>}
