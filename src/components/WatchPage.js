@@ -10,7 +10,7 @@ import LiveChat from './LiveChat';
 const WatchPage = () => {
   const [ searchParams ] = useSearchParams();
   const showLiveChat = useSelector((store) => store.liveChat.showLiveChat)
-   console.log(showLiveChat);
+   //console.log(showLiveChat);
   //console.log(searchParams.get("v"));
   const params = searchParams.get("v");
   //console.log(params);
